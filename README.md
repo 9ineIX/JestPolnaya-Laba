@@ -1,13 +1,12 @@
 # Ave Datagrid
 
 > [!CAUTION]
-> ####КОРОЧЕ ЭТО ДЛЯ БДШКИ ВАУ МЯУ</h1>
+> КОРОЧЕ ЭТО ДЛЯ БДШКИ ВАУ МЯУ, пихаешь это в запрос</h1>
 
-CREATE DATABASE ProductManagerDB;
-
-USE ProductManagerDB;
-
--- Таблица пользователей
+> [!IMPORTANT]
+> CREATE DATABASE ProductManagerDB;
+> USE ProductManagerDB;
+>-- Таблица пользователей
 CREATE TABLE Users (
     Id INT IDENTITY(1,1) PRIMARY KEY,
     Username NVARCHAR(50) UNIQUE NOT NULL,
@@ -21,3 +20,10 @@ CREATE TABLE Products (
     Price DECIMAL(10,2) NOT NULL,
     Quantity INT NOT NULL
 );
+> 
+
+
+
+
+
+
