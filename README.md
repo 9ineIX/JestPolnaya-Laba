@@ -24,3 +24,7 @@ CREATE TABLE Products (
 
 -- Тестовые данные
 INSERT INTO Users (Username, Password) VALUES ('admin', 'admin');
+```
+
+> [!IMPORTANT]
+> У тебя все получится, люблю тебя!!
