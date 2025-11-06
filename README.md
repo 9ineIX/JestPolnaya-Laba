@@ -1,11 +1,12 @@
 # Ave Datagrid
 
 > [!IMPORTANT]
-> КОРОЧЕ ЭТО ДЛЯ БДШКИ ВАУ МЯУ, пихаешь это в запрос</h1>
+> КОРОЧЕ ЭТО ДЛЯ БДШКИ ВАУ МЯУ, пихаешь это в запрос
 
-
+```sql
 CREATE DATABASE ProductManagerDB;
 USE ProductManagerDB;
+
 -- Таблица пользователей
 CREATE TABLE Users (
     Id INT IDENTITY(1,1) PRIMARY KEY,
@@ -23,9 +24,3 @@ CREATE TABLE Products (
 
 -- Тестовые данные
 INSERT INTO Users (Username, Password) VALUES ('admin', 'admin');
-
-
-
-
-
-
