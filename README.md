@@ -1,7 +1,5 @@
 # Ave Datagrid
 
-> [!IMPORTANT]
-> КОРОЧЕ ЭТО ДЛЯ БДШКИ ВАУ МЯУ, пихаешь это в запрос
 
 ```sql
 CREATE DATABASE ProductManagerDB;
@@ -26,5 +24,3 @@ CREATE TABLE Products (
 INSERT INTO Users (Username, Password) VALUES ('admin', 'admin');
 ```
 
-> [!IMPORTANT]
-> У тебя все получится, люблю тебя!!
