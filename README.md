@@ -3,8 +3,9 @@
 
 ```sql
 CREATE DATABASE ProductManagerDB;
+GO
 USE ProductManagerDB;
-
+GO
 -- Таблица пользователей
 CREATE TABLE Users (
     Id INT IDENTITY(1,1) PRIMARY KEY,
