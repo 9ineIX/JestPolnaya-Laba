@@ -76,7 +76,7 @@
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(193, 28);
             btnAdd.TabIndex = 4;
-            btnAdd.Text = "Добавить";
+            btnAdd.Text = "Add";
             btnAdd.UseVisualStyleBackColor = true;
             btnAdd.Click += btnAdd_Click;
             // 
@@ -86,7 +86,7 @@
             btnUpdate.Name = "btnUpdate";
             btnUpdate.Size = new Size(193, 28);
             btnUpdate.TabIndex = 5;
-            btnUpdate.Text = "Обновить";
+            btnUpdate.Text = "Update";
             btnUpdate.UseVisualStyleBackColor = true;
             // 
             // btnDelete
@@ -95,36 +95,36 @@
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(193, 28);
             btnDelete.TabIndex = 6;
-            btnDelete.Text = "Удалить";
+            btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
             btnDelete.Click += btnDelete_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(659, 8);
+            label1.Location = new Point(670, 8);
             label1.Name = "label1";
-            label1.Size = new Size(59, 15);
+            label1.Size = new Size(39, 15);
             label1.TabIndex = 8;
-            label1.Text = "Название";
+            label1.Text = "Name";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(670, 55);
             label2.Name = "label2";
-            label2.Size = new Size(35, 15);
+            label2.Size = new Size(33, 15);
             label2.TabIndex = 9;
-            label2.Text = "Цена";
+            label2.Text = "Price";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(650, 99);
+            label3.Location = new Point(660, 99);
             label3.Name = "label3";
-            label3.Size = new Size(79, 15);
+            label3.Size = new Size(49, 15);
             label3.TabIndex = 10;
-            label3.Text = "Колличество";
+            label3.Text = "Quanity";
             // 
             // Main
             // 

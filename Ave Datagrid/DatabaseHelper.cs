@@ -5,8 +5,7 @@ namespace ProductManager
 {
     public class DatabaseHelper
     {
-        private readonly string _connectionString = "Server=.\\SQLEXPRESS;Database=ProductManagerDB;Trusted_Connection=True;Encrypt=False;";
-
+        private readonly string _connectionString = "Server=DESKTOP-08PA5LN\\SQLEXPRESS;Database=ProductManagerDB;Trusted_Connection=True;Encrypt=False;";
        
         public bool RegisterUser(string username, string password)
         {
