@@ -39,7 +39,22 @@ namespace Ave_Datagrid
             }
         }
 
-        private void btnUpdate_Click(object sender, EventArgs e)
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (dgvProducts.SelectedRows.Count > 0)
+            {
+                int id = (int)dgvProducts.SelectedRows[0].Cells["Id"].Value;
+
+                if (db.DeleteProduct(id))
+                {
+                    MessageBox.Show("Продукт удален!");
+                    LoadProducts();
+                }
+            }
+        }
+
+        private void btnUpdate_Click_1(object sender, EventArgs e)
         {
             if (dgvProducts.SelectedRows.Count > 0)
             {
@@ -51,20 +66,6 @@ namespace Ave_Datagrid
                 if (db.UpdateProduct(id, name, price, quantity))
                 {
                     MessageBox.Show("Продукт обновлен!");
-                    LoadProducts();
-                }
-            }
-        }
-
-        private void btnDelete_Click(object sender, EventArgs e)
-        {
-            if (dgvProducts.SelectedRows.Count > 0)
-            {
-                int id = (int)dgvProducts.SelectedRows[0].Cells["Id"].Value;
-
-                if (db.DeleteProduct(id))
-                {
-                    MessageBox.Show("Продукт удален!");
                     LoadProducts();
                 }
             }
